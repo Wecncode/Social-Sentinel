@@ -2,6 +2,14 @@
 
 Welcome! We are excited you want to contribute. This project aims to create an open-source, accessible tool for detecting social engineering attacks using NLP.
 
+## Table of Contents
+
+1. [How You Can Help](#️-how-you-can-help)
+2. [Development Setup](#-development-setup)
+3. [Project Structure](#project-structure)
+4. [Pull Request Process](#-pull-request-process)
+5. [Code of Conduct](#-code-of-conduct)
+
 ## 🛠️ How You Can Help
 
 We are currently looking for contributions in three areas:
@@ -16,6 +24,16 @@ We are currently looking for contributions in three areas:
 3. Activate the environment: `source venv/bin/activate`
 4. Install dependencies: `pip install -r requirements.txt`
 5. Run the app: `streamlit run app.py`
+
+## Project Structure
+
+social-sentinel/
+├── app.py # Core Streamlit application and ML inference logic
+├── requirements.txt # Python dependencies (Streamlit, Transformers, etc.)
+├── .gitignore # Ignores virtual environments and cache
+├── README.md # Project documentation
+├── CONTRIBUTING.md # This file
+└── LICENSE # MIT License
 
 ## 🔀 Pull Request Process
 
