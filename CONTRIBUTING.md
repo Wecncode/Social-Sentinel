@@ -41,6 +41,14 @@ We are currently looking for contributions in three core areas:
 5. **Dependencies:** Update `requirements.txt` and `README.md` if your PR introduces new Python libraries.
 6. **Submit PR:** Submit a Pull Request with a clear description of the problem you solved and screenshots of UI changes if applicable.
 
+## 🤖 AI Engineering Guidelines
+
+To keep the inference engine lightweight, secure, and production-ready:
+* **Caching & Performance:** Always wrap model loading routines in `@st.cache_resource` to avoid reloading weights on every UI rerun.
+* **Input Truncation & Token Limits:** Ensure tokenization pipelines safely handle inputs exceeding the 512-token limit via intelligent truncation or sliding window chunking.
+* **Model Explainability:** When implementing explainability (e.g., SHAP, LIME, or attention maps), ensure output scores are normalized and mapped clearly to the UI without blocking main thread execution.
+* **Artifact Management:** Do not commit raw `.pt` or `.bin` model weights directly to Git. Use Hugging Face Hub repositories or reference download scripts.
+  
 ## 📜 Code of Conduct
 
 Be kind, write clean code, and **never upload actual, un-anonymized malicious payloads, live phishing links, or PII (Personally Identifiable Information)** to this repository. All datasets must be properly sanitized.
