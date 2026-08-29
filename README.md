@@ -35,3 +35,8 @@ semantic-shield/
    ```bash
    git clone [https://github.com/YOUR_USERNAME/ai-phishing-analyzer.git](https://github.com/YOUR_USERNAME/ai-phishing-analyzer.git)
    cd ai-phishing-analyzer
+
+## System Architecture
+Pipeline stages
+1. ...
+2. ...
