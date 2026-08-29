@@ -31,10 +31,13 @@ The analysis follows a simple pipeline:
 This approach allows the system to identify social engineering signals such as urgency, authority, fear, manipulation, and attempts to pressure a user into taking immediate action.
 
 ## Tech Stack
+<<<<<<< HEAD
 *   **Frontend:** Streamlit
 *   **AI/Machine Learning:** Hugging Face `transformers`
 *   **Backend:** PyTorch
 *   **Data Processing:** Pandas
+=======
+>>>>>>> 403aa82edbc155336df4ac6bfa1be28358960f0e
 
 📂 Project Structure
 Plaintext
