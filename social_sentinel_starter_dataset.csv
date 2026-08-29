@@ -1,0 +1,13 @@
+id,text,urgency_flag,authority_flag,manipulation_flag,label
+1,URGENT: Your account will be permanently suspended in 24 hours. Click here to verify your identity.,1,1,1,phishing
+2,"Hey team, just a reminder that the Q3 marketing review is scheduled for 3 PM today in Conference Room B.",0,0,0,safe
+3,CEO request: I am in a meeting and need you to purchase five $100 Apple gift cards for a client right now. Keep this confidential.,1,1,1,phishing
+4,Your monthly electricity invoice for August is attached. Please review the charges.,0,0,0,safe
+5,"Congratulations! Your email address was randomly selected to win a $5,000 government grant. Provide your bank routing number to claim.",1,0,1,phishing
+6,IT Alert: We detected unusual login activity from Russia on your company email. Reset your password immediately via this portal.,1,1,1,phishing
+7,"Hi Mom, I lost my phone and I'm using a friend's number. I'm stranded and need you to wire me $50 for a cab home.",1,0,1,phishing
+8,The project deadline has been extended to next Friday. Let me know if you need any help adjusting the roadmap.,0,0,0,safe
+9,FINAL NOTICE: Failure to pay your outstanding tax balance will result in immediate legal action and a warrant for your arrest.,1,1,1,phishing
+10,Can we reschedule our 1-on-1 to tomorrow? I'm running behind on the current sprint.,0,0,0,safe
+11,SECURITY WARNING: Your crypto wallet has been compromised. Transfer your assets to this secure vault address immediately.,1,0,1,phishing
+12,Please find attached the meeting minutes from yesterday's board session.,0,0,0,safe
