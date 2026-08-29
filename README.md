@@ -35,3 +35,19 @@ semantic-shield/
    ```bash
    git clone [https://github.com/YOUR_USERNAME/ai-phishing-analyzer.git](https://github.com/YOUR_USERNAME/ai-phishing-analyzer.git)
    cd ai-phishing-analyzer
+
+2. **Install dependencies:**
+```bash
+   pip install -r requirements.txt
+```
+
+3. **Run the application:**
+```bash
+   streamlit run app.py
+```
+
+4. **Usage:**
+   - Open the local URL shown in your terminal (typically `http://localhost:8501`).
+   - Paste the suspicious email or message text into the input box.
+   - Click **Analyze** to run it through the model.
+   - Review the probability score and flagged indicators in the results panel.
