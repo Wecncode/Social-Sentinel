@@ -1,4 +1,4 @@
-# Social-Sentinel - AI-Powered Phishing & Social Engineering Analyzer
+# Social-Sentinel: AI-Powered Phishing & Social Engineering Analyzer
 An open-source, AI-powered NLP tool designed to detect psychological manipulation, urgency, and zero-day social engineering tactics in emails and text messages.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
@@ -9,6 +9,7 @@ An open-source, AI-powered NLP tool designed to detect psychological manipulatio
 An open-source, interactive web application that uses Natural Language Processing (NLP) to detect phishing attempts and social engineering tactics in emails and messages. Instead of relying on static blocklists, this tool analyzes the semantic intent of the text to identify urgency, manipulation, and authority-based threats.
 
 ## Features
+*   **Semantic Analysis:** Detects psychological vectors (urgency, authority impersonation, fear, and pressure tactics).
 *   **Real-time Inference:** Uses a fine-tuned BERT model to classify text instantly.
 *   **Probability Scoring:** Provides a confidence metric for the threat assessment.
 *   **Interactive UI:** Built with Streamlit for a clean, user-friendly dashboard.
