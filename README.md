@@ -16,7 +16,8 @@ An open-source, interactive web application that uses Natural Language Processin
 
 ## Tech Stack
 *   **Frontend:** Streamlit
-*   **AI/Machine Learning:** Hugging Face `transformers` (PyTorch backend)
+*   **AI/Machine Learning:** Hugging Face `transformers`
+*   **Backend:** PyTorch
 *   **Data Processing:** Pandas
 
 📂 Project Structure
