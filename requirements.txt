@@ -4,3 +4,6 @@ python==3.11.8
 
 
 
+numpy
+gradio
+pandas
